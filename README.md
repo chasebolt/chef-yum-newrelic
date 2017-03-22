@@ -30,7 +30,7 @@ default['yum']['newrelic']['managed'] = true
 
 ```ruby
   yum_repository 'newrelic' do
-    baseurl 'http://pkg.newrelic.com/CentOS/$releasever/$basearch'
+    baseurl 'http://yum.newrelic.com/pub/newrelic/el5/$basearch'
     description 'New Relic Repository'
     enabled true
     gpgcheck true
