@@ -1,3 +1,6 @@
+## v0.1.3
+- removing yum dependency
+
 ## v0.1.2
 - correcting example
 
